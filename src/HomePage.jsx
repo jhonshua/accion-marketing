@@ -1,5 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import video from "../public/parallax/video/accion_marketing.mp4"
 
 function HomePage() {
   const videoRef = useRef(null);
@@ -34,7 +35,7 @@ function HomePage() {
       >
         <video ref={videoRef} muted>
           <source
-            src="../public/parallax/video/accion_marketing.mp4"
+            src={video}
             type="video/mp4"
           />
         </video>
