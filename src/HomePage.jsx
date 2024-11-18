@@ -34,7 +34,7 @@ function HomePage() {
       >
         <video ref={videoRef} muted>
           <source
-            src="../src/assets/video/accion marketing.mp4"
+            src="/assets/video/accion marketing.mp4"
             type="video/mp4"
           />
         </video>
